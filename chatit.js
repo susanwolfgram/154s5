@@ -7,7 +7,7 @@ window.onload = function() {
 function checkMessages() {
 	var ajax = new XMLHttpRequest();
 	ajax.onload = gotMessages;
-	ajax.open("GET", "https://webster.cs.washington.edu/cse154/sections/9/chatit/chatit.php", true);
+	ajax.open("GET", "https://webster.cs.washington.edu/cse154/sections/9/chatit/chatit.php?reverse=false", true);
 	ajax.send();
 }	
 
